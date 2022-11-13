@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-light-purple elevation-4">
     <a href="http://127.0.0.1/home" class="brand-link">
         <img src="http://127.0.0.1/vendor/adminlte/dist/img/AdminLTELogo.png" alt="Admin Logo" class="brand-image img-circle elevation-3" style="opacity:.8">
-        <span class="brand-text font-weight-light ">Sistema<b>Suporte</b></span>
+        <span class="brand-text font-weight-light ">Sis<b>Getúlio</b></span>
     </a>
 
     <div class="sidebar">
@@ -22,14 +22,14 @@
 
                 <li class="nav-item has-treeview ">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-fw fa-users"></i><p> {{__("Clientes")}}<i class="fas fa-angle-left right"></i></p>
+                        <i class="fas fa-fw fa-users"></i><p> {{__("Usuários")}}<i class="fas fa-angle-left right"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route("customers")}}"><p>{{_("Clientes")}}</p></a>
+                            <a class="nav-link" href="{{route("users")}}"><p>{{_("Listar usuários")}}</p></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route("createCustomer")}}"><p>{{__("Cadastrar cliente")}}</p></a>
+                            <a class="nav-link" href="{{route("createUser")}}"><p>{{__("Cadastrar usuários")}}</p></a>
                         </li>
                     </ul>
                 </li>

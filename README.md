@@ -21,3 +21,4 @@ Ao final de 2022, surgindo uma oportunidade de a plataforma ser de fato colocada
 - `$ composer update`
 - `$ php artisan adminlte:install`
 - `$ php artisan migrate`
+- `SQL: insert into users (id,name,email,password, profile) values(1,"root","root@sisgetulio.com","ad415aec8652bfb33b408181b44a3f9643fd74e0","ROOT");`

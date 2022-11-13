@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get("/users", [\App\Http\Controllers\UserController::class, "index"])->name("users");
+Route::get("/user",[\App\Http\Controllers\UserController::class, "create"])->name("createUser");
+Route::post("/user", [\App\Http\Controllers\UserController::class, "store"])->name("storeUser");
+Route::get("/user/{user}", [\App\Http\Controllers\UserController::class, "edit"])->name("editUser");
+Route::put("/user/{user}", [\App\Http\Controllers\UserController::class, "update"])->name("updateUser");
+Route::delete("/user", [\App\Http\Controllers\UserController::class, "destroy"])->name("deleteUser");
