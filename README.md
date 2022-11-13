@@ -4,7 +4,8 @@ Nascido em 2021, o [SisGetúlio]("https://github.com/ropehapi/SisGetulio") era u
 Ao final de 2022, surgindo uma oportunidade de a plataforma ser de fato colocada no ar, foi decidido que seria melhor para o projeto, que ele fosse reformulado e reconstruído em Laravel, visando facilidade na manutenção e rapidez no desenvolvimento.
 
 ### Funcionalidades
-- Descrever todas as funcionalidades
+- Gerenciamento de usuários
+- Gerenciamento de membros
 
 ### Estrutura
 - Backend
